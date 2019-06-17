@@ -1,0 +1,31 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "A series of tasks to solve using TypeScript and TDD (Test Driven Development).",
+  "main": "index.js",
+  "repository": "https://github.com/MrKiplin/learn-typescript.git",
+  "author": "Theodore J H A Jones <39280007+MrKiplin@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost"
+  }
+}
