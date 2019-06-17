@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A series of tasks to solve using TypeScript and TDD (Test Driven Development).",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": "https://github.com/MrKiplin/learn-typescript.git",
   "author": "Theodore J H A Jones <39280007+MrKiplin@users.noreply.github.com>",
   "license": "MIT",
