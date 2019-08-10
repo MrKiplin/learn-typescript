@@ -1,4 +1,4 @@
-![](images/mrkiplin-icon.gif)
+![](images/mrkiplin-learn-typescript-banner.gif)
 
 # TypeScript Coding Tasks
 
