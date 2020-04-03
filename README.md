@@ -1,3 +1,5 @@
+![](images/mrkiplin-learn-typescript-banner.gif)
+
 # TypeScript Coding Tasks
 
 A collection of tasks to solve using TypeScript and TDD (Test Driven Development). Test cases are included for each task.
@@ -49,6 +51,6 @@ yarn test
 
 ## Authors
 
-![](mrkiplin-icon.gif)
+![](images/mrkiplin-icon.gif)
 
 - **Theodore Jones** - [MrKiplin](https://github.com/MrKiplin)
