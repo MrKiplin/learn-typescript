@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 To get up and running, you will need the following tools.
 
-#### Code
+### Code
 
 To write and test code you will need [NodeJS](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/lang/en/) installed. If your on a Mac, use [Homebrew](https://docs.brew.sh/Installation) for installation.
 
@@ -54,6 +54,10 @@ Alternatively for running running tests specific to a given task, the descriptio
 ```
 yarn test -t "<task-description>"
 ```
+
+## Solutions
+
+If you at any you point get stuck, step by step solutions for each task can be found in the [Wiki](https://github.com/MrKiplin/learn-typescript/wiki).
 
 ## Authors
 
