@@ -5,13 +5,6 @@ import {
 } from "./003-fizzbuzz-chain-responsibility";
 
 describe("fizzBuzzChainResponsibility", () => {
-  it("Totally legit test", () => {
-    expect(true).toEqual(true);
-  });
-});
-
-// Option 2.....
-describe("fizzBuzzChainResponsibility", () => {
   it("Should return FizzBuzz if value is multiple of 3 & 5", () => {});
 
   it("Should return Fizz if value is multiple of 3", () => {});
