@@ -2,11 +2,11 @@
 
 # TypeScript Coding Tasks
 
-A collection of tasks to solve using TypeScript and TDD (Test Driven Development). Test cases are included for each task.
+A collection of tasks to solve using TypeScript and TDD (Test Driven Development). Test cases are included for each task. Solutions and step by step guides for each task can be found in the [Wiki](https://github.com/MrKiplin/learn-typescript/wiki).
 
 ## Using the Repository
 
-This repository has been designed for intermediate developers who would like to become more familiar with TypeScript. Simply fork/clone to your local machine then navigate to the folder of your chosen task. Run the tests `yarn test`. All tests will fail in their initial state. Your objective is to write code that makes all the tests pass. As we progress through the tasks, we will also look at writing our own tests using [Jest](https://jestjs.io/).
+This repository has been designed for intermediate developers who would like to become more familiar with TypeScript. Simply fork/clone to your local machine then navigate to the folder of your chosen task. Run the tests `yarn test`. All tests will fail in their initial state. Your objective is to write code that makes all the tests pass. As we progress through the tasks, we will also look at writing tests from scratch using [Jest](https://jestjs.io/).
 
 Happy hacking :)
 
