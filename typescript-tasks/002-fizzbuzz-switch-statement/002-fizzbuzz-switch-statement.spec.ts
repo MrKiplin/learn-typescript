@@ -1,14 +1,14 @@
 import {
   fizzBuzzSwitchStatement,
-  fizzBuzzSwitchStatementLogger
-} from "./task-002-fizzbuzz-switch-statement";
+  fizzBuzzSwitchStatementLogger,
+} from "./002-fizzbuzz-switch-statement";
 
 describe("fizzBuzzSwitchStatement", () => {
   it.each([
     [fizzBuzzSwitchStatement(0), "FizzBuzz"],
     [fizzBuzzSwitchStatement(3), "Fizz"],
     [fizzBuzzSwitchStatement(5), "Buzz"],
-    [fizzBuzzSwitchStatement(1), 1]
+    [fizzBuzzSwitchStatement(1), 1],
   ])("Should return %s", (result, expected) => {
     expect(result).toBe(expected);
   });

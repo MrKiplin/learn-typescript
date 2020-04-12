@@ -1,4 +1,4 @@
-![](images/mrkiplin-learn-typescript-banner.gif)
+![](assets/mrkiplin-learn-typescript-banner.gif)
 
 # TypeScript Coding Tasks
 
@@ -51,6 +51,6 @@ yarn test
 
 ## Authors
 
-![](images/mrkiplin-icon.gif)
+![](assets/mrkiplin-icon.gif)
 
 - **Theodore Jones** - [MrKiplin](https://github.com/MrKiplin)
