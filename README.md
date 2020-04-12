@@ -6,7 +6,7 @@ A collection of tasks to solve using TypeScript and TDD (Test Driven Development
 
 ## Using the Repository
 
-This repository has been designed for intermediate developers who would like to become more familiar with TypeScript. Simply fork/clone to your local machine then navigate to the folder of your chosen task and run the tests `yarn test`. All tests will fail in their initial state. Your objective is to write code that makes all the tests pass.
+This repository has been designed for intermediate developers who would like to become more familiar with TypeScript. Simply fork/clone to your local machine then navigate to the folder of your chosen task. Run the tests `yarn test`. All tests will fail in their initial state. Your objective is to write code that makes all the tests pass. As we progress through the tasks, we will also look at writing our own tests using [Jest](https://jestjs.io/).
 
 Happy hacking :)
 
@@ -43,10 +43,16 @@ yarn
 
 ## Running the tests
 
-Tests can be run globally from the root directory by running `yarn test`
+Tests can be run globally from the root directory by running `yarn test`.
 
 ```
 yarn test
+```
+
+Alternatively for running running tests specific to a given task, the description inside the `describe` block can be used.
+
+```
+yarn test -t "<task-description>"
 ```
 
 ## Authors
