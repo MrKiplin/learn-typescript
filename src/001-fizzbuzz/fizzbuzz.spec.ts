@@ -1,4 +1,4 @@
-import { fizzBuzz, fizzBuzzLogger } from "./001-fizzbuzz";
+import { fizzBuzz, fizzBuzzLogger } from "./fizzbuzz";
 
 describe("fizzBuzz", () => {
   it("Should return Fizz if value is multiple of 3", () => {

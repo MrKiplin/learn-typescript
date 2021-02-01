@@ -2,18 +2,31 @@
   "name": "learn-typescript",
   "version": "1.0.0",
   "description": "A series of tasks to solve using TypeScript and TDD (Test Driven Development).",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint -c .eslintrc.js --ext .ts 'src/**/*.ts'",
+    "build": "tsc -p ./tsconfig.build.json"
   },
   "repository": "https://github.com/MrKiplin/learn-typescript.git",
   "author": "Theodore J H A Jones <39280007+MrKiplin@users.noreply.github.com>",
   "license": "MIT",
+  "keywords": [
+    "learn",
+    "typescript"
+  ],
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.2"
+    "typescript": "^4.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
   },
   "jest": {
     "transform": {
