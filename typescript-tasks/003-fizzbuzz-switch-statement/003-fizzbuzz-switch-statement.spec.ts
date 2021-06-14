@@ -1,7 +1,7 @@
 import {
   fizzBuzzSwitchStatement,
   fizzBuzzSwitchStatementLogger,
-} from "./002-fizzbuzz-switch-statement";
+} from "./003-fizzbuzz-switch-statement";
 
 describe("fizzBuzzSwitchStatement", () => {
   it.each([
