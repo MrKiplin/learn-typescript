@@ -1,6 +1,6 @@
-import { fizzBuzz, fizzBuzzLogger } from "./001-fizzbuzz";
+import { fizzBuzz, fizzBuzzLogger } from "./002-fizzbuzz";
 
-describe("fizzBuzz", () => {
+describe("fizzBuzzSwitchStatement", () => {
   it("Should return Fizz if value is multiple of 3", () => {
     const result = fizzBuzz(3);
     expect(result).toMatch("Fizz");

@@ -1,8 +1,4 @@
-import {
-  FizzBuzz,
-  fizzBuzz,
-  fizzBuzzLogger,
-} from "./003-fizzbuzz-chain-responsibility";
+import { fizzBuzz, fizzBuzzLogger } from "./004-fizzbuzz-chain-responsibility";
 
 describe("fizzBuzzChainResponsibility", () => {
   it("Should return FizzBuzz if value is multiple of 3 & 5", () => {});
